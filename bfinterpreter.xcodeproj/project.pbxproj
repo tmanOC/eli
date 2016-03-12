@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04479A961C91BB4B00F0613B /* ColourTextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04479A951C91BB4B00F0613B /* ColourTextViewDelegate.swift */; };
 		04F9B41B1C099B6600394BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9B41A1C099B6600394BD7 /* AppDelegate.swift */; };
 		04F9B41D1C099B6600394BD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9B41C1C099B6600394BD7 /* ViewController.swift */; };
-		04F9B4201C099B6600394BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F9B41E1C099B6600394BD7 /* Main.storyboard */; };
 		04F9B4221C099B6600394BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F9B4211C099B6600394BD7 /* Assets.xcassets */; };
 		04F9B4251C099B6600394BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F9B4231C099B6600394BD7 /* LaunchScreen.storyboard */; };
+		04F9B42D1C099E5000394BD7 /* TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9B42C1C099E5000394BD7 /* TextViewDelegate.swift */; };
+		04F9B42F1C09E73200394BD7 /* KeyboarNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9B42E1C09E73200394BD7 /* KeyboarNotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04479A951C91BB4B00F0613B /* ColourTextViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourTextViewDelegate.swift; sourceTree = "<group>"; };
 		04F9B4171C099B6600394BD7 /* bfinterpreter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bfinterpreter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F9B41A1C099B6600394BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F9B41C1C099B6600394BD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04F9B41F1C099B6600394BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04F9B4211C099B6600394BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F9B4241C099B6600394BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F9B4261C099B6600394BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F9B42C1C099E5000394BD7 /* TextViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewDelegate.swift; sourceTree = "<group>"; };
+		04F9B42E1C09E73200394BD7 /* KeyboarNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboarNotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				04F9B41A1C099B6600394BD7 /* AppDelegate.swift */,
 				04F9B41C1C099B6600394BD7 /* ViewController.swift */,
-				04F9B41E1C099B6600394BD7 /* Main.storyboard */,
+				04F9B42E1C09E73200394BD7 /* KeyboarNotification.swift */,
+				04F9B42C1C099E5000394BD7 /* TextViewDelegate.swift */,
+				04479A951C91BB4B00F0613B /* ColourTextViewDelegate.swift */,
 				04F9B4211C099B6600394BD7 /* Assets.xcassets */,
 				04F9B4231C099B6600394BD7 /* LaunchScreen.storyboard */,
 				04F9B4261C099B6600394BD7 /* Info.plist */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					04F9B4161C099B6600394BD7 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Y4CJ5A6WXU;
 					};
 				};
 			};
@@ -124,7 +131,6 @@
 			files = (
 				04F9B4251C099B6600394BD7 /* LaunchScreen.storyboard in Resources */,
 				04F9B4221C099B6600394BD7 /* Assets.xcassets in Resources */,
-				04F9B4201C099B6600394BD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F9B42F1C09E73200394BD7 /* KeyboarNotification.swift in Sources */,
+				04F9B42D1C099E5000394BD7 /* TextViewDelegate.swift in Sources */,
+				04479A961C91BB4B00F0613B /* ColourTextViewDelegate.swift in Sources */,
 				04F9B41D1C099B6600394BD7 /* ViewController.swift in Sources */,
 				04F9B41B1C099B6600394BD7 /* AppDelegate.swift in Sources */,
 			);
@@ -143,14 +152,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04F9B41E1C099B6600394BD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04F9B41F1C099B6600394BD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04F9B4231C099B6600394BD7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -247,10 +248,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hestelle Pretorious (DE9JRSB287)";
 				INFOPLIST_FILE = bfinterpreter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tman.bfinterpreter;
+				PRODUCT_BUNDLE_IDENTIFIER = za.co.limbik.cbc.lovethejourney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c25f44af-1386-4c20-986f-192c37778c27";
 			};
 			name = Debug;
 		};
@@ -258,10 +262,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = bfinterpreter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tman.bfinterpreter;
+				PRODUCT_BUNDLE_IDENTIFIER = za.co.limbik.cbc.lovethejourney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c25f44af-1386-4c20-986f-192c37778c27";
 			};
 			name = Release;
 		};
@@ -284,6 +291,7 @@
 				04F9B42B1C099B6600394BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
