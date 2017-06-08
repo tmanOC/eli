@@ -103,6 +103,7 @@
 					04F9B4161C099B6600394BD7 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = Y4CJ5A6WXU;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -257,6 +258,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = za.tman.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -271,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = za.tman.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

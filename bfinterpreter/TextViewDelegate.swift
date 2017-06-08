@@ -11,10 +11,10 @@ import UIKit
 class TextViewDelegate: NSObject,UITextViewDelegate
 {
     var input_string:String = ""
-    func textViewDidEndEditing(textView: UITextView) {
+    func textViewDidEndEditing(_ textView: UITextView) {
         input_string = textView.text
     }
-    func textViewDidBeginEditing(textView: UITextView) {
+    func textViewDidBeginEditing(_ textView: UITextView) {
         textView.text = input_string
     }
 }
